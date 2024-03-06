@@ -1,8 +1,12 @@
+import Navbar from "./Components/Navbar/Navbar";
 import "./app.scss"
 const App = () => {
   return <div>
 
-    <section>Hero</section>
+
+    <section>
+      <Navbar />
+    </section>
     <section>Parallax</section>
     <section>Services</section>
     <section>Parallax</section>
@@ -10,7 +14,7 @@ const App = () => {
     <section>Portfolio2</section>
     <section>Portfolio3</section>
     <section>Contact</section>
- 
+
   </div>;
 };
 

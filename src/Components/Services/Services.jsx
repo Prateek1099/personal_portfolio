@@ -1,26 +1,48 @@
-import{motion} from "framer-motion"
+import{animate, motion,useInView} from "framer-motion"
 import './Services.scss';
+import { useRef } from "react";
 
+
+
+const variants={
+  initial:{
+    x:-500,
+    y:100,
+    opacity:0,
+  },
+  animate:{
+    x:0,
+    opacity:1,
+    y:0,
+    transition:{
+      duration:1,
+      staggerChildren:0.1,
+    },
+  },
+};
 const Services = () => {
+
+  const ref = useRef()
+  const isInView= useInView(ref,{margin:"-100px"})
   return (
-    <motion.div className="services">
-     <motion.div className="textContainer">
+    <motion.div className="services" variants={variants} initial="initial" ref={ref} animate={isInView && "animate"}>
+     <motion.div className="textContainer" variants={variants}>
       <p>I focus on helping your brand grow
         <br /> and move forward
       </p>
       <hr />
      </motion.div>
-     <motion.div className="titleContainer">
+     <motion.div className="titleContainer" variants={variants}>
       <div className="title">
         <img src="/people.webp" alt="" />
         <h1>
-          <b>Unique</b> Ideas
+          <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
         </h1>
         </div>
 
         <div className="title">
         <h1>
-          <b>For Your</b> Business
+        <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business
         </h1>
         
         <button>WHAT WE DO</button>
@@ -35,21 +57,26 @@ const Services = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
       <button>Go</button>
       </motion.div>
+
       <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
         <h2>Branding</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
       <button>Go</button>
       </motion.div>
+
       <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
         <h2>Branding</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
+
+        <p>Lorem ipsum adipisicing elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
       <button>Go</button>
       </motion.div>
+
       <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
         <h2>Branding</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
+        <p>Lorem ipsum dolor  elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
       <button>Go</button>
       </motion.div>
+      
      </motion.div>
     </motion.div>
   );

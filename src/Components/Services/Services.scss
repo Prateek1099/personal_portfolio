@@ -19,6 +19,7 @@
             color: gray;
             text-align: right;
         }
+        
         hr{
             width: 500px;
             border: none;
@@ -69,9 +70,12 @@
             padding: 50px;
             border: 0.5px solid gray;
             display: flex;
-            flex-direction: column;
+            flex-direction: column; 
             justify-content: space-between;
 
+            h2{
+                margin-bottom: 15px
+            }
             button{
                 background-color: orange;
                 padding: 10px;

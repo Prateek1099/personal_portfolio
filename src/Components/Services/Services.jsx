@@ -52,28 +52,28 @@ const Services = () => {
 
      <motion.div className="listContainer">
 
-      <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-        <h2>Branding</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
+     <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
+        <h2>UI / UX Design:</h2>
+
+        <p>Crafting intuitive and visually compelling user interfaces (UI) and seamless user experiences (UX) to enhance engagement and satisfaction. Our designs prioritize usability and aesthetics, ensuring your digital products stand out and resonate with your target audience!</p>
       <button>Go</button>
       </motion.div>
 
       <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-        <h2>Branding</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
+        <h2>Website Development</h2>
+        <p>Crafting bespoke web solutions tailored to your needs, our web development services encompass everything from building intuitive websites to complex web applications. Using the latest tech, we turn your digital vision into reality.</p>
       <button>Go</button>
       </motion.div>
 
       <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-        <h2>Branding</h2>
-
-        <p>Lorem ipsum adipisicing elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
+        <h2>Application Development</h2>
+        <p>From concept to launch, we specialize in creating intuitive mobile applications for both Android and iOS platforms. Let us transform your ideas into impactful experiences. With a focus on quality and performance, we ensure your app stands out.!</p>
       <button>Go</button>
       </motion.div>
 
       <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
-        <h2>Branding</h2>
-        <p>Lorem ipsum dolor  elit. Aspernatur perferendis, voluptate dignissimos delectus, alias nam aut nisi, corporis dolorem aliquam eos. Quidem fugit necessitatibus laboriosam distinctio rem consectetur quas nam!</p>
+        <h2>QA Testing:</h2>
+        <p>Ensuring the reliability and performance of your software through rigorous testing and quality assurance processes. From functional testing to automated regression testing, we guarantee the highest standards of quality to deliver bug-free and seamless user experiences!</p>
       <button>Go</button>
       </motion.div>
       

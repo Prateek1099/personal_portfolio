@@ -5,9 +5,9 @@ import { useRef } from "react";
 const items =[
     {
         id:1,
-        title: "React Commerce",
+        title: "Matrimonial Website",
         img: "https://images.pexels.com/photos/33582/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut diam non ex vulputate scelerisque. Nullam vel turpis in velit tempus aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vestibulum pretium dolor, vitae ultricies mauris efficitur sed. "
+        desc: "The Matrimonial Site Project aims to create an online platform that facilitates the process of finding a life partner. This platform will serve as a digital matchmaking service where individuals can create profiles, search for compatible matches, and interact with potential partners to establish meaningful connections leading to marriage.. "
 
     },
 
@@ -15,25 +15,18 @@ const items =[
         id:2,
         title: "Nextjs Blog",
         img: "https://images.pexels.com/photos/668353/pexels-photo-668353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut diam non ex vulputate scelerisque. Nullam vel turpis in velit tempus aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vestibulum pretium dolor, vitae ultricies mauris efficitur sed. "
+        desc: "Welcome to the Omniverse Chronicles, your one-stop destination for a diverse range of topics covering everything under the sun! Dive into a vast array of captivating subjects, from science and technology to arts, culture, lifestyle, and beyond. Our blog aims to be a treasure trove of information, offering insightful articles, thought-provoking discussions, and engaging content that caters to curious minds of all ages and interests.. "
 
     },
 
     {
         id:3,
-        title: "Vanilla Js App",
+        title: "Just Search",
         img: "https://images.pexels.com/photos/321576/pexels-photo-321576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Lorem ipsvel turpis in velit tempus aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vestibulum pretium dolor, vitae ultricies mauris efficitur sed. "
-
+        desc: "Welcome to JustSearch, your go-to destination for all your local search needs! Just like JustDial, ConnectHub is your trusted companion in navigating the bustling world around you. Whether you're searching for the nearest restaurants, hotels, hospitals, or any other service providers, ConnectHub is here to simplify your quest."
     },
 
-    {
-        id:4,
-        title: "Music App",
-        img: "https://images.pexels.com/photos/632125/pexels-photo-632125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut diam non ex vulputate scelerisque. Nullam vel turpis in velit tempus aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed vestibulum pretium dolor, vitae ultricies mauris efficitur sed. "
-
-    },
+    
 ];
 
 const Single =({item})=>{

@@ -32,11 +32,6 @@
     display: flex;
     gap: 20px;
 
-         
-    @include mobile{
-       margin-top:-35px; // innov
-    } 
-
     img{
         height: 18px;
         width: 18px;

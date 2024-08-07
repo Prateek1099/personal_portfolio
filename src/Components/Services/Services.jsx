@@ -25,14 +25,16 @@ const Services = () => {
   const ref = useRef()
   const isInView= useInView(ref,{margin:"-100px"})
   return (
-    <motion.div className="services" variants={variants} initial="initial" ref={ref} animate={isInView && "animate"}>
+    <motion.div className="services" variants={variants} initial="initial" ref={ref} animate={"animate"}>
+      
      <motion.div className="textContainer" variants={variants}>
       <p>I focus on helping your brand grow
         <br /> and move forward
       </p>
       <hr />
      </motion.div>
-     <motion.div className="titleContainer" variants={variants}>
+
+     {/* <motion.div className="titleContainer" variants={variants}>
       <div className="title">
         <img src="/people.webp" alt="" />
         <h1>
@@ -48,9 +50,9 @@ const Services = () => {
         <button>WHAT WE DO</button>
         </div>
      
-     </motion.div>
+     </motion.div> */}
 
-     <motion.div className="listContainer">
+     {/* <motion.div className="listContainer">
 
      <motion.div className="box" whileHover={{background:"lightgray",color:"black"}}>
         <h2>UI / UX Design:</h2>
@@ -77,7 +79,7 @@ const Services = () => {
       <button>Go</button>
       </motion.div>
       
-     </motion.div>
+     </motion.div> */} 
     </motion.div>
   );
 };

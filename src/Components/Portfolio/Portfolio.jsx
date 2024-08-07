@@ -5,25 +5,25 @@ import { useRef } from "react";
 const items =[
     {
         id:1,
-        title: "Matrimonial Website",
-        img: "https://images.pexels.com/photos/33582/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "The Matrimonial Site Project aims to create an online platform that facilitates the process of finding a life partner. This platform will serve as a digital matchmaking service where individuals can create profiles, search for compatible matches, and interact with potential partners to establish meaningful connections leading to marriage.. "
+        title: "Fitness Fusion Kit",
+        img: "k1.jpeg",
+        desc: "A Fitness Fusion Kit is a comprehensive package designed to help individuals achieve their fitness goals by combining various workout styles. This includes sports shoes, yoga mat, jump rope and athletic wear. "
 
     },
 
     {
         id:2,
-        title: "Nextjs Blog",
-        img: "https://images.pexels.com/photos/668353/pexels-photo-668353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Welcome to the Omniverse Chronicles, your one-stop destination for a diverse range of topics covering everything under the sun! Dive into a vast array of captivating subjects, from science and technology to arts, culture, lifestyle, and beyond. Our blog aims to be a treasure trove of information, offering insightful articles, thought-provoking discussions, and engaging content that caters to curious minds of all ages and interests.. "
+        title: "Mindful Musing Kit",
+        img: "k2.jpeg",
+        desc: "This curated collection of thoughtfully selected items is designed to create a serene sanctuary for your mind and soul. It includes candles, sleep mask, stress ball and inspirational books "
 
     },
 
     {
         id:3,
-        title: "Just Search",
-        img: "https://images.pexels.com/photos/321576/pexels-photo-321576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Welcome to JustSearch, your go-to destination for all your local search needs! Just like JustDial, ConnectHub is your trusted companion in navigating the bustling world around you. Whether you're searching for the nearest restaurants, hotels, hospitals, or any other service providers, ConnectHub is here to simplify your quest."
+        title: "Nourish and Flourish Kit",
+        img: "h3.jpeg",
+        desc: "It typically includes items that cater to both physical and mental health, aiming to help individuals nourish their bodies and flourish in their lives. it includes dry fruits, healthy drinks, a  hydration tracker and nutrition booklet."
     },
 
     
@@ -53,7 +53,7 @@ const Single =({item})=>{
             <motion.div className="textContainer" style={{y}}>
                 <h2>{item.title}</h2>
                 <p>{item.desc}</p>
-                <button>Visit Website</button>
+                <button>Buy Now</button>
             </motion.div>
             </div>
          </div>
@@ -74,8 +74,10 @@ const scaleX = useSpring(scrollYProgress,{
   return (
     <div className="portfolio">
         <div className="progress">
-            <h1>Featured Works</h1>
+            <h1>Our Kits</h1>
+            
             <motion.div style={{scaleX}} className="progressBar">
+          
 
             </motion.div>
         </div>

@@ -53,18 +53,18 @@ const Contact = () => {
 
             <motion.div className="item"  variants={variants}>
                 <h2>Mail</h2>
-                <span>businessfacts1099@gmail.com</span>
+                <span>holistichorison@gmail.com</span>
             </motion.div>
 
             <motion.div className="item"  variants={variants}>
                 <h2>Address</h2>
-                <span>IStart Nest Incubation Center, Jodhpur</span>
+                <span>HolisticHorison HQ, near Lucky International School Sector-8, Jodhpur</span>
                 </motion.div>
 
 
             <motion.div className="item"  variants={variants}>
                 <h2>Mobile</h2>
-                <span>+91 7014769931</span>
+                <span>+91-8619541900 , +91-9116090071</span>
                 </motion.div>
 
         </motion.div>

@@ -44,6 +44,7 @@ const sliderVariants = {
 
 const Hero =()=>{
     return(
+        
       
         <div className="hero">
             <div className="wrapper">

@@ -35,8 +35,12 @@ const Parallax = ({ type }) => {
         style={{ y: yBg, backgroundImage: `url(${type === "services" ? "/planets.png" : "/sun.png"})` }}
         className="planets"
       ></motion.div>
+      
       <motion.div style={{ x: yBg }} className="stars"></motion.div>
-      <button onClick={handleEventsClick} className="eventsButton">Events</button>
+      
+      {type !== "services" && (
+        <button onClick={handleEventsClick} className="eventsButton">Events</button>
+      )}
     </div>
   );
 };
